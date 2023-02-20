@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#full-page{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid red;
+}
+#top{
+    height: 20%;
+    width: 100%;
+     border: 1px solid red;
+}
+#top >div{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+#top >div:nth-child(1) i ,h1{
+    padding: 0 0.5%;
+    color: #007bff;
+}
+#top >div:nth-child(1) i {
+    font-size: 4vw;
+}
+#top >div:nth-child(1) h1{
+    font-size: 3vw;
+    text-decoration: underline;
+}
+#top >div:nth-child(2) >div{
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+}
