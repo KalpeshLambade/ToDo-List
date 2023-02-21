@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya&family=Cedarville+Cursive&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d98822fee5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="full-page">
+      <div id="page-body">
+        <div id="top">
+          <div>
+            <h1>To-do-list</h1>
+            <p>Planes</p>
+          </div>
+          <div>
+            <div>
+              <input type="text" placeholder="Add new ..." id="todo" />
+              <button id="ad" onclick="addTodos()">
+                <i class="fa-solid fa-plus"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div id="bot">
+          <div id="displayTodos"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Script Part -->
+    <script src="/script.js"></script>
+  </body>
+</html>
