@@ -1,0 +1,34 @@
+@media screen and (max-width:500px) {
+    #page-body{
+        width: 100%;
+    }
+    #top{
+        
+    }
+    #top>div:nth-child(1){
+     width: 55%;
+     height: 75%;
+    }
+    #top>div:nth-child(1) h1,#top>div:nth-child(1)  p{
+        font-size: 7vw;
+    }
+    #top >div:nth-child(2){
+        height: 25%;
+        width: 80%;
+        margin: auto;
+    }
+    #todo{
+        font-size: 3vw;
+    }
+    #ad >i{
+    font-size: 3vw;
+    }
+    #header, #row{
+        height: 4%;
+        font-size: 3vw;
+    }
+    #row >p,#row >i{
+    font-size: 3vw;
+}
+
+}

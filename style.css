@@ -4,7 +4,6 @@
     font-family: 'Alegreya', serif;
 }
 #full-page{
-    height: 100vh;
     width: 100%;
     background-image: url("https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: 100% 100%;
@@ -12,10 +11,9 @@
     padding-top: 5%;
 }
 #page-body{
-    height: 80%;
+    height: 100vh;
     width:50%;
     margin: auto;
-    background-size: 100% 100%;
 }
 #top{
     height: 20%;
@@ -123,6 +121,7 @@
 }
 #row >i{
     color:#77012a;
+    cursor: pointer;
 }
 
 
